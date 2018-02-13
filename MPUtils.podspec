@@ -22,7 +22,6 @@ TODO: Add long description of the pod here.
                        DESC
 
   s.homepage         = 'https://github.com/martinpucik/MPUtils'
-  # s.screenshots     = 'www.example.com/screenshots_1', 'www.example.com/screenshots_2'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
   s.author           = { 'martinpucik' => 'martin@martinpucik.com' }
   s.source           = { :git => 'https://github.com/martinpucik/MPUtils.git', :tag => s.version.to_s }
@@ -30,7 +29,7 @@ TODO: Add long description of the pod here.
 
   s.ios.deployment_target = '10.0'
 
-  s.source_files = 'MPUtils/Classes/**/*'
+  s.source_files = 'MPUtils/**/*'
   
   # s.resource_bundles = {
   #   'MPUtils' => ['MPUtils/Assets/*.png']
