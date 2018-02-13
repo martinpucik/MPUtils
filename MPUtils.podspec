@@ -28,14 +28,7 @@ TODO: Add long description of the pod here.
   s.social_media_url = 'https://twitter.com/MartinPucik'
 
   s.ios.deployment_target = '10.0'
-
   s.source_files = 'MPUtils/**/*'
-  
-  # s.resource_bundles = {
-  #   'MPUtils' => ['MPUtils/Assets/*.png']
-  # }
+  s.frameworks = 'UIKit', 'Foundation'
 
-  # s.public_header_files = 'Pod/Classes/**/*.h'
-  # s.frameworks = 'UIKit', 'MapKit'
-  # s.dependency 'AFNetworking', '~> 2.3'
 end
