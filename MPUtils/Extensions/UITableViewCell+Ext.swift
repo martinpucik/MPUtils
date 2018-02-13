@@ -9,7 +9,7 @@ import UIKit
 
 public extension UITableViewCell {
 
-    static var identifier: String {
+    public static var identifier: String {
         return NSStringFromClass(type(of: self.init()))
     }
 }
