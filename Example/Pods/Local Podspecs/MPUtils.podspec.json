@@ -1,0 +1,22 @@
+{
+  "name": "MPUtils",
+  "version": "0.1.0",
+  "summary": "A short description of MPUtils.",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/martinpucik/MPUtils",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "martinpucik": "martin.pucik@me.com"
+  },
+  "source": {
+    "git": "https://github.com/martinpucik/MPUtils.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "8.0"
+  },
+  "source_files": "MPUtils/Classes/**/*"
+}
