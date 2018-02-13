@@ -1,7 +1,8 @@
 {
   "name": "MPUtils",
   "version": "0.1.0",
-  "summary": "A short description of MPUtils.",
+  "summary": "Swift utility classes and extensions",
+  "swift_version": "4.0",
   "description": "TODO: Add long description of the pod here.",
   "homepage": "https://github.com/martinpucik/MPUtils",
   "license": {
@@ -9,14 +10,19 @@
     "file": "LICENSE"
   },
   "authors": {
-    "martinpucik": "martin.pucik@me.com"
+    "martinpucik": "martin@martinpucik.com"
   },
   "source": {
     "git": "https://github.com/martinpucik/MPUtils.git",
     "tag": "0.1.0"
   },
+  "social_media_url": "https://twitter.com/MartinPucik",
   "platforms": {
-    "ios": "8.0"
+    "ios": "10.0"
   },
-  "source_files": "MPUtils/Classes/**/*"
+  "source_files": "MPUtils/**/*",
+  "frameworks": [
+    "UIKit",
+    "Foundation"
+  ]
 }
