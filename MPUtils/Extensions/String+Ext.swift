@@ -7,7 +7,7 @@
 
 import Foundation
 
-extension String {
+public extension String {
 
     func trim() -> String {
         return trimmingCharacters(in: NSCharacterSet.whitespacesAndNewlines)

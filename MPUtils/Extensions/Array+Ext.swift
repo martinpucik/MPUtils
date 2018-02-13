@@ -7,7 +7,7 @@
 
 import Foundation
 
-extension Array where Element == String {
+public extension Array where Element == String {
 
     func toString() -> String {
         var string = ""
