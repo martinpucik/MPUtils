@@ -24,7 +24,7 @@ TODO: Add long description of the pod here.
   s.homepage         = 'https://github.com/martinpucik/MPUtils'
   # s.screenshots     = 'www.example.com/screenshots_1', 'www.example.com/screenshots_2'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
-  s.author           = { 'martinpucik' => 'martin.pucik@me.com' }
+  s.author           = { 'martinpucik' => 'martin@martinpucik.com' }
   s.source           = { :git => 'https://github.com/martinpucik/MPUtils.git', :tag => s.version.to_s }
   s.social_media_url = 'https://twitter.com/MartinPucik'
 
