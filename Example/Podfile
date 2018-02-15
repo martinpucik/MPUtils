@@ -5,7 +5,6 @@ target 'MPUtils_Example' do
 
   target 'MPUtils_Tests' do
     inherit! :search_paths
-
-    
   end
+
 end
