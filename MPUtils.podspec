@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'MPUtils'
-  s.version          = '0.2.0'
+  s.version          = '0.2.1'
   s.summary          = 'Swift utility classes and extensions'
   s.swift_version    = '4.0'
   
