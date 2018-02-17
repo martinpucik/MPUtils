@@ -9,10 +9,13 @@ import UIKit
 
 public extension UINavigationController {
 
-    public final func makeEmptyBack(withImage image: UIImage? = nil) {
+    public final func makeEmptyBack(withImage image: UIImage? = nil, tintColor: UIColor? = nil) {
         let backImage = image ?? UIImage.init(named: "arrowBack")
-        navigationBar.backIndicatorImage = backImage
-        navigationBar.backIndicatorTransitionMaskImage = backImage
-        navigationBar.topItem?.backBarButtonItem = UIBarButtonItem.init(title: "  ", style: UIBarButtonItemStyle.plain, target: nil, action: nil)
+        navigationBar.backIndicatorImage = backImage?.withRenderingMode(.alwaysTemplate)
+        navigationBar.backIndicatorTransitionMaskImage = backImage?.withRenderingMode(.alwaysTemplate)
+        navigationBar.topItem?.backBarButtonItem = UIBarButtonItem.init(title: "  ", style: .plain, target: nil, action: nil)
+        if let tint = tintColor {
+            navigationBar.topItem?.backBarButtonItem?.tintColor = tint
+        }
     }
 }
