@@ -10,6 +10,9 @@
 		0501C69EDFACFD362BF16D889A0EBB92 /* MPUtils-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 2922A2B5ADF3D49459FF09C4F5048575 /* MPUtils-dummy.m */; };
 		138866A12035E77900A25746 /* UINavigationController+Ext.swift in Sources */ = {isa = PBXBuildFile; fileRef = 138866A02035E77900A25746 /* UINavigationController+Ext.swift */; };
 		13BBE0362038D3E800C5841E /* NSAttributedString+Ext.swift in Sources */ = {isa = PBXBuildFile; fileRef = 13BBE0352038D3E800C5841E /* NSAttributedString+Ext.swift */; };
+		13DB327F2083BB9B00668918 /* UIViewController+Ext.swift in Sources */ = {isa = PBXBuildFile; fileRef = 13DB327E2083BB9B00668918 /* UIViewController+Ext.swift */; };
+		13DB32812083BD2A00668918 /* Date+Ext.swift in Sources */ = {isa = PBXBuildFile; fileRef = 13DB32802083BD2A00668918 /* Date+Ext.swift */; };
+		13F402DF2039EB720057794C /* NSTextAttachment+Ext.swift in Sources */ = {isa = PBXBuildFile; fileRef = 13F402DE2039EB720057794C /* NSTextAttachment+Ext.swift */; };
 		1B163B71BF91FADFC65D06E90651DC2A /* String+Ext.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4207311D2A6D0D2A8DFF130346DDCCBE /* String+Ext.swift */; };
 		304C973DD01066C7E4FD12854DF6E53F /* MPUtils-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 4E20080D986F243F60B0E8544C2F7322 /* MPUtils-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		3E850195F40EA7A7131BEF05538685C0 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D88AAE1F92055A60CC2FC970D7D34634 /* Foundation.framework */; };
@@ -44,6 +47,9 @@
 		138866A02035E77900A25746 /* UINavigationController+Ext.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = "UINavigationController+Ext.swift"; path = "MPUtils/Extensions/UINavigationController+Ext.swift"; sourceTree = "<group>"; };
 		138866A32035E8B200A25746 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		13BBE0352038D3E800C5841E /* NSAttributedString+Ext.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = "NSAttributedString+Ext.swift"; path = "MPUtils/Extensions/NSAttributedString+Ext.swift"; sourceTree = "<group>"; };
+		13DB327E2083BB9B00668918 /* UIViewController+Ext.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = "UIViewController+Ext.swift"; path = "MPUtils/Extensions/UIViewController+Ext.swift"; sourceTree = "<group>"; };
+		13DB32802083BD2A00668918 /* Date+Ext.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = "Date+Ext.swift"; path = "MPUtils/Extensions/Date+Ext.swift"; sourceTree = "<group>"; };
+		13F402DE2039EB720057794C /* NSTextAttachment+Ext.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "NSTextAttachment+Ext.swift"; sourceTree = "<group>"; };
 		14624AB695C1B111771A9CE76F1DC061 /* Pods-MPUtils_Example-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-MPUtils_Example-resources.sh"; sourceTree = "<group>"; };
 		27DE2573693C6D3F076D2DD1E89DD032 /* Pods-MPUtils_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-MPUtils_Example.debug.xcconfig"; sourceTree = "<group>"; };
 		2922A2B5ADF3D49459FF09C4F5048575 /* MPUtils-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "MPUtils-dummy.m"; sourceTree = "<group>"; };
@@ -222,11 +228,14 @@
 			isa = PBXGroup;
 			children = (
 				44B6BCE0DCC23CDD4430E210BEC6CE58 /* Array+Ext.swift */,
-				AE074EF50C8E324A3135E061451E9133 /* UIApplication+Ext.swift */,
+				13DB32802083BD2A00668918 /* Date+Ext.swift */,
 				13BBE0352038D3E800C5841E /* NSAttributedString+Ext.swift */,
+				13F402DE2039EB720057794C /* NSTextAttachment+Ext.swift */,
+				4207311D2A6D0D2A8DFF130346DDCCBE /* String+Ext.swift */,
+				AE074EF50C8E324A3135E061451E9133 /* UIApplication+Ext.swift */,
 				138866A02035E77900A25746 /* UINavigationController+Ext.swift */,
 				DE3BE625155BA82C062DF220C890F0F1 /* UITableViewCell+Ext.swift */,
-				4207311D2A6D0D2A8DFF130346DDCCBE /* String+Ext.swift */,
+				13DB327E2083BB9B00668918 /* UIViewController+Ext.swift */,
 				47AE81A3BC38B44C9BAEC7FB0F377D90 /* Pod */,
 				138866A22035E8A000A25746 /* Resources */,
 				BCFD4B747CA8529A4FBF24DAE2F1FDA7 /* Support Files */,
@@ -364,6 +373,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				13F402DF2039EB720057794C /* NSTextAttachment+Ext.swift in Sources */,
 				568AF1B7A32668D69CE4D24A0BD12586 /* Array+Ext.swift in Sources */,
 				0501C69EDFACFD362BF16D889A0EBB92 /* MPUtils-dummy.m in Sources */,
 				138866A12035E77900A25746 /* UINavigationController+Ext.swift in Sources */,
@@ -371,6 +381,8 @@
 				1B163B71BF91FADFC65D06E90651DC2A /* String+Ext.swift in Sources */,
 				72CA21985A5747091555BD12633CDD03 /* UIApplication+Ext.swift in Sources */,
 				9B2DB08C1CC7021938DF6A6D731A442D /* UITableViewCell+Ext.swift in Sources */,
+				13DB327F2083BB9B00668918 /* UIViewController+Ext.swift in Sources */,
+				13DB32812083BD2A00668918 /* Date+Ext.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
