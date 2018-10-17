@@ -10,7 +10,7 @@ Pod::Spec.new do |s|
   s.name             = 'MPUtils'
   s.version          = '0.2.4'
   s.summary          = 'Swift utility classes and extensions'
-  s.swift_version    = '4.1'
+  s.swift_version    = '4.2'
   
 # This description is used to generate tags and improve search results.
 #   * Think: What does it do? Why did you write it? What is the focus?

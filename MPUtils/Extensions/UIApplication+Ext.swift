@@ -10,6 +10,6 @@ import UIKit
 public extension UIApplication {
 
     public static var animated: Bool {
-        return !UIAccessibilityIsReduceMotionEnabled()
+        return !UIAccessibility.isReduceMotionEnabled
     }
 }
