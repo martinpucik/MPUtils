@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		0D0876E1E9B1C7391C43CD48A1C77F16 /* MPUtils-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 0C984F94C038E341708BC670CBBC46C8 /* MPUtils-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		13DD20F0217B227A005FE17E /* World.swift in Sources */ = {isa = PBXBuildFile; fileRef = 13DD20EF217B227A005FE17E /* World.swift */; };
 		1FC28DEDC22CB450369DAA3036AE984B /* NSTextAttachment+Ext.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9DF78CABE51846EE61212657ABC9153E /* NSTextAttachment+Ext.swift */; };
 		20AE52DB09D9936FCC7A733F292690E7 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B63C6A64CF66340668996F78DA6BB482 /* UIKit.framework */; };
 		3470310A074E43080EDFA6BB4687FBC3 /* MPUtils-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 29DC892B21798E792A5489EDCD54F827 /* MPUtils-dummy.m */; };
@@ -56,6 +57,7 @@
 		0D927746CA14611E7ED8ABBD214CF5E5 /* Pods_MPUtils_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MPUtils_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		0DFC92B3A5FE02D1C5678F325C0F8F6B /* Pods-MPUtils_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-MPUtils_Example-dummy.m"; sourceTree = "<group>"; };
 		10B8EA07BB48B4FA890D8479BE7F58B9 /* UITableViewCell+Ext.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = "UITableViewCell+Ext.swift"; sourceTree = "<group>"; };
+		13DD20EF217B227A005FE17E /* World.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = World.swift; sourceTree = "<group>"; };
 		1DB06CC0FC0B3E11E52FF6399607D108 /* Pods-MPUtils_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-MPUtils_Example-frameworks.sh"; sourceTree = "<group>"; };
 		29DC892B21798E792A5489EDCD54F827 /* MPUtils-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "MPUtils-dummy.m"; sourceTree = "<group>"; };
 		2F9850B7F649BFFA32DF426ED5701ECC /* Pods-MPUtils_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-MPUtils_Example-acknowledgements.plist"; sourceTree = "<group>"; };
@@ -172,6 +174,7 @@
 			isa = PBXGroup;
 			children = (
 				33B69EA5DF1586B861D4889B3B290195 /* Logger.swift */,
+				13DD20EF217B227A005FE17E /* World.swift */,
 			);
 			name = Utilities;
 			path = MPUtils/Utilities;
@@ -462,6 +465,7 @@
 				3470310A074E43080EDFA6BB4687FBC3 /* MPUtils-dummy.m in Sources */,
 				638F2CBED84BB17435FDEFD76FB059A7 /* NSAttributedString+Ext.swift in Sources */,
 				1FC28DEDC22CB450369DAA3036AE984B /* NSTextAttachment+Ext.swift in Sources */,
+				13DD20F0217B227A005FE17E /* World.swift in Sources */,
 				4C4CEC1688D38ECF357CB7DA954B85EB /* String+Ext.swift in Sources */,
 				E8796C1C77D3FFDE5964C024032DFDB0 /* UIApplication+Ext.swift in Sources */,
 				4DD4C81351218F0069DD8A00F016BF3B /* UINavigationController+Ext.swift in Sources */,
