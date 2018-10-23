@@ -1,16 +1,27 @@
 PODS:
-  - MPUtils (0.2.4)
+  - MPUtils (0.2.6)
+  - Nimble (7.3.1)
+  - Quick (1.3.2)
 
 DEPENDENCIES:
   - MPUtils (from `../`)
+  - Nimble
+  - Quick
+
+SPEC REPOS:
+  https://github.com/cocoapods/specs.git:
+    - Nimble
+    - Quick
 
 EXTERNAL SOURCES:
   MPUtils:
     :path: "../"
 
 SPEC CHECKSUMS:
-  MPUtils: 4fd3383676151d92706aeda820f3e4ca9894e18e
+  MPUtils: da8af85f49b87759cf4ea61fb798d4382cbba83d
+  Nimble: 04f732da099ea4d153122aec8c2a88fd0c7219ae
+  Quick: 2623cb30d7a7f41ca62f684f679586558f483d46
 
-PODFILE CHECKSUM: 3ef0dbe98b228c0b2c312ad9a3ae81590e48b4f5
+PODFILE CHECKSUM: dbe3337e1c77c77e9ebb01254dc3dda535317945
 
 COCOAPODS: 1.5.3
