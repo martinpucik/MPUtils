@@ -5,4 +5,4 @@ xcode_scheme: MPUtils-Example
 xcode_sdk: iphonesimulator
 
 script:
-- set -o pipefail && xcodebuild clean build test -enableCodeCoverage YES -scheme MPUtils-Example YES ONLY_ACTIVE_ARCH=NO -destination 'platform=iOS Simulator,name=iPhone 8,OS=12.0' | xcpretty
+- set -o pipefail && xcodebuild clean build test -enableCodeCoverage YES -scheme MPUtils-Example ONLY_ACTIVE_ARCH=NO -destination 'platform=iOS Simulator,name=iPhone 8,OS=12.0' | xcpretty
