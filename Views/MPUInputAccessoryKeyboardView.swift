@@ -11,11 +11,11 @@ import Foundation
 // MARK: - CDCInputAccessoryKeyboardViewProtocol
 ////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
 
-protocol MPUInputAccessoryKeyboardViewProtocol: class {
+public protocol MPUInputAccessoryKeyboardViewProtocol: class {
     func keyboardFrameChanged(_ frame: CGRect)
 }
 
-class MPUInputAccessoryKeyboardView: UIView {
+public class MPUInputAccessoryKeyboardView: UIView {
 
     ////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
     // MARK: - Private Properties
@@ -28,7 +28,7 @@ class MPUInputAccessoryKeyboardView: UIView {
     // MARK: - Lifecycle
     ////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
 
-    init(delegate: MPUInputAccessoryKeyboardViewProtocol) {
+    public init(delegate: MPUInputAccessoryKeyboardViewProtocol) {
         self.delegate = delegate
         super.init(frame: CGRect.zero)
         autoresizingMask = .flexibleHeight
@@ -43,11 +43,11 @@ class MPUInputAccessoryKeyboardView: UIView {
         centerObserver = nil
     }
 
-    override var intrinsicContentSize: CGSize {
+    override public var intrinsicContentSize: CGSize {
         return CGSize.zero
     }
 
-    override func willMove(toSuperview newSuperview: UIView?) {
+    override public func willMove(toSuperview newSuperview: UIView?) {
         if newSuperview == nil {
             centerObserver?.invalidate()
             centerObserver = nil
