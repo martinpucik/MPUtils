@@ -8,16 +8,9 @@
 
 Pod::Spec.new do |s|
   s.name             = 'MPUtils'
-  s.version          = '0.3.0'
+  s.version          = '0.3.1'
   s.summary          = 'Swift utility classes and extensions'
   s.swift_version    = '4.2'
-  
-# This description is used to generate tags and improve search results.
-#   * Think: What does it do? Why did you write it? What is the focus?
-#   * Try to keep it short, snappy and to the point.
-#   * Write the description between the DESC delimiters below.
-#   * Finally, don't worry about the indent, CocoaPods strips it!
-
   s.description      = <<-DESC
   Couple of Swift utility methods and extensions
 DESC
@@ -28,6 +21,7 @@ DESC
   s.source           = { :git => 'https://github.com/martinpucik/MPUtils.git', :tag => s.version.to_s }
   s.social_media_url = 'https://twitter.com/MartinPucik'
 
+  s.static_framework = true
   s.ios.deployment_target = '10.0'
   s.source_files = 'MPUtils/**/*'
   s.resources = ['**/*.xcassets']
