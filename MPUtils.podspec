@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'MPUtils'
-  s.version          = '0.3.1'
+  s.version          = '0.3.2'
   s.summary          = 'Swift utility classes and extensions'
   s.swift_version    = '4.2'
   s.description      = <<-DESC
@@ -21,10 +21,8 @@ DESC
   s.source           = { :git => 'https://github.com/martinpucik/MPUtils.git', :tag => s.version.to_s }
   s.social_media_url = 'https://twitter.com/MartinPucik'
 
-  s.static_framework = true
   s.ios.deployment_target = '10.0'
-  s.source_files = 'MPUtils/**/*'
-  s.resources = ['**/*.xcassets']
+  s.source_files = 'Source/**/*'
   s.frameworks = 'UIKit', 'Foundation'
 
 end

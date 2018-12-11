@@ -404,13 +404,22 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
+		134931A921C00561007EA0A8 /* Source */ = {
+			isa = PBXGroup;
+			children = (
+				DA7131C247492C5F5C9BC070EDF74310 /* Extensions */,
+				23342ADB1919FA8C946127A234C3D0B8 /* Utilities */,
+				13E6EF97219900C3002E10CA /* Views */,
+			);
+			path = Source;
+			sourceTree = "<group>";
+		};
 		13E6EF97219900C3002E10CA /* Views */ = {
 			isa = PBXGroup;
 			children = (
 				13E6EF98219900C3002E10CA /* MPUInputAccessoryKeyboardView.swift */,
 			);
-			name = Views;
-			path = MPUtils/Views;
+			path = Views;
 			sourceTree = "<group>";
 		};
 		23342ADB1919FA8C946127A234C3D0B8 /* Utilities */ = {
@@ -419,8 +428,7 @@
 				FEE59C1FA4E6EF41DA2A9E53B84CADF0 /* Logger.swift */,
 				3F269C851608347E93340E1A020F5E86 /* World.swift */,
 			);
-			name = Utilities;
-			path = MPUtils/Utilities;
+			path = Utilities;
 			sourceTree = "<group>";
 		};
 		35A1ECB18B6DB7131B843E957E38E5DF /* Targets Support Files */ = {
@@ -574,12 +582,10 @@
 		BCD47F69B5C361DA37AFC24AFAF5A958 /* MPUtils */ = {
 			isa = PBXGroup;
 			children = (
-				DA7131C247492C5F5C9BC070EDF74310 /* Extensions */,
+				134931A921C00561007EA0A8 /* Source */,
 				DF8CBA9AD2C63B3BB00988CCF389C281 /* Pod */,
 				DD914A3E9F3845E2510645D22742C60F /* Resources */,
 				E99826BBFBEA58D6EAEECCEA2A73C8BD /* Support Files */,
-				23342ADB1919FA8C946127A234C3D0B8 /* Utilities */,
-				13E6EF97219900C3002E10CA /* Views */,
 			);
 			name = MPUtils;
 			path = ../..;
@@ -694,8 +700,7 @@
 				CAF8E7A8023697E0C59B0AF114B59639 /* UIViewController+Ext.swift */,
 				13AFE292217FAD7F0072D1FA /* Collection+Ext.swift */,
 			);
-			name = Extensions;
-			path = MPUtils/Extensions;
+			path = Extensions;
 			sourceTree = "<group>";
 		};
 		DD914A3E9F3845E2510645D22742C60F /* Resources */ = {
