@@ -1,0 +1,89 @@
+{
+  "": {
+    "swift-dependencies": "/Users/martinpucik/Developer/MPUtils/.build/x86_64-apple-macosx/debug/MPUtils.build/master.swiftdeps"
+  },
+  "/Users/martinpucik/Developer/MPUtils/Sources/MPUtils/Extensions/Array+Ext.swift": {
+    "dependencies": "/Users/martinpucik/Developer/MPUtils/.build/x86_64-apple-macosx/debug/MPUtils.build/MPUtils/Extensions/Array+Ext.d",
+    "object": "/Users/martinpucik/Developer/MPUtils/.build/x86_64-apple-macosx/debug/MPUtils.build/MPUtils/Extensions/Array+Ext.swift.o",
+    "swiftmodule": "/Users/martinpucik/Developer/MPUtils/.build/x86_64-apple-macosx/debug/MPUtils.build/MPUtils/Extensions/Array+Ext~partial.swiftmodule",
+    "swift-dependencies": "/Users/martinpucik/Developer/MPUtils/.build/x86_64-apple-macosx/debug/MPUtils.build/MPUtils/Extensions/Array+Ext.swiftdeps"
+  },
+  "/Users/martinpucik/Developer/MPUtils/Sources/MPUtils/Extensions/Collection+Ext.swift": {
+    "dependencies": "/Users/martinpucik/Developer/MPUtils/.build/x86_64-apple-macosx/debug/MPUtils.build/MPUtils/Extensions/Collection+Ext.d",
+    "object": "/Users/martinpucik/Developer/MPUtils/.build/x86_64-apple-macosx/debug/MPUtils.build/MPUtils/Extensions/Collection+Ext.swift.o",
+    "swiftmodule": "/Users/martinpucik/Developer/MPUtils/.build/x86_64-apple-macosx/debug/MPUtils.build/MPUtils/Extensions/Collection+Ext~partial.swiftmodule",
+    "swift-dependencies": "/Users/martinpucik/Developer/MPUtils/.build/x86_64-apple-macosx/debug/MPUtils.build/MPUtils/Extensions/Collection+Ext.swiftdeps"
+  },
+  "/Users/martinpucik/Developer/MPUtils/Sources/MPUtils/Extensions/Date+Ext.swift": {
+    "dependencies": "/Users/martinpucik/Developer/MPUtils/.build/x86_64-apple-macosx/debug/MPUtils.build/MPUtils/Extensions/Date+Ext.d",
+    "object": "/Users/martinpucik/Developer/MPUtils/.build/x86_64-apple-macosx/debug/MPUtils.build/MPUtils/Extensions/Date+Ext.swift.o",
+    "swiftmodule": "/Users/martinpucik/Developer/MPUtils/.build/x86_64-apple-macosx/debug/MPUtils.build/MPUtils/Extensions/Date+Ext~partial.swiftmodule",
+    "swift-dependencies": "/Users/martinpucik/Developer/MPUtils/.build/x86_64-apple-macosx/debug/MPUtils.build/MPUtils/Extensions/Date+Ext.swiftdeps"
+  },
+  "/Users/martinpucik/Developer/MPUtils/Sources/MPUtils/Extensions/NSAttributedString+Ext.swift": {
+    "dependencies": "/Users/martinpucik/Developer/MPUtils/.build/x86_64-apple-macosx/debug/MPUtils.build/MPUtils/Extensions/NSAttributedString+Ext.d",
+    "object": "/Users/martinpucik/Developer/MPUtils/.build/x86_64-apple-macosx/debug/MPUtils.build/MPUtils/Extensions/NSAttributedString+Ext.swift.o",
+    "swiftmodule": "/Users/martinpucik/Developer/MPUtils/.build/x86_64-apple-macosx/debug/MPUtils.build/MPUtils/Extensions/NSAttributedString+Ext~partial.swiftmodule",
+    "swift-dependencies": "/Users/martinpucik/Developer/MPUtils/.build/x86_64-apple-macosx/debug/MPUtils.build/MPUtils/Extensions/NSAttributedString+Ext.swiftdeps"
+  },
+  "/Users/martinpucik/Developer/MPUtils/Sources/MPUtils/Extensions/NSTextAttachment+Ext.swift": {
+    "dependencies": "/Users/martinpucik/Developer/MPUtils/.build/x86_64-apple-macosx/debug/MPUtils.build/MPUtils/Extensions/NSTextAttachment+Ext.d",
+    "object": "/Users/martinpucik/Developer/MPUtils/.build/x86_64-apple-macosx/debug/MPUtils.build/MPUtils/Extensions/NSTextAttachment+Ext.swift.o",
+    "swiftmodule": "/Users/martinpucik/Developer/MPUtils/.build/x86_64-apple-macosx/debug/MPUtils.build/MPUtils/Extensions/NSTextAttachment+Ext~partial.swiftmodule",
+    "swift-dependencies": "/Users/martinpucik/Developer/MPUtils/.build/x86_64-apple-macosx/debug/MPUtils.build/MPUtils/Extensions/NSTextAttachment+Ext.swiftdeps"
+  },
+  "/Users/martinpucik/Developer/MPUtils/Sources/MPUtils/Extensions/String+Ext.swift": {
+    "dependencies": "/Users/martinpucik/Developer/MPUtils/.build/x86_64-apple-macosx/debug/MPUtils.build/MPUtils/Extensions/String+Ext.d",
+    "object": "/Users/martinpucik/Developer/MPUtils/.build/x86_64-apple-macosx/debug/MPUtils.build/MPUtils/Extensions/String+Ext.swift.o",
+    "swiftmodule": "/Users/martinpucik/Developer/MPUtils/.build/x86_64-apple-macosx/debug/MPUtils.build/MPUtils/Extensions/String+Ext~partial.swiftmodule",
+    "swift-dependencies": "/Users/martinpucik/Developer/MPUtils/.build/x86_64-apple-macosx/debug/MPUtils.build/MPUtils/Extensions/String+Ext.swiftdeps"
+  },
+  "/Users/martinpucik/Developer/MPUtils/Sources/MPUtils/Extensions/UIApplication+Ext.swift": {
+    "dependencies": "/Users/martinpucik/Developer/MPUtils/.build/x86_64-apple-macosx/debug/MPUtils.build/MPUtils/Extensions/UIApplication+Ext.d",
+    "object": "/Users/martinpucik/Developer/MPUtils/.build/x86_64-apple-macosx/debug/MPUtils.build/MPUtils/Extensions/UIApplication+Ext.swift.o",
+    "swiftmodule": "/Users/martinpucik/Developer/MPUtils/.build/x86_64-apple-macosx/debug/MPUtils.build/MPUtils/Extensions/UIApplication+Ext~partial.swiftmodule",
+    "swift-dependencies": "/Users/martinpucik/Developer/MPUtils/.build/x86_64-apple-macosx/debug/MPUtils.build/MPUtils/Extensions/UIApplication+Ext.swiftdeps"
+  },
+  "/Users/martinpucik/Developer/MPUtils/Sources/MPUtils/Extensions/UINavigationController+Ext.swift": {
+    "dependencies": "/Users/martinpucik/Developer/MPUtils/.build/x86_64-apple-macosx/debug/MPUtils.build/MPUtils/Extensions/UINavigationController+Ext.d",
+    "object": "/Users/martinpucik/Developer/MPUtils/.build/x86_64-apple-macosx/debug/MPUtils.build/MPUtils/Extensions/UINavigationController+Ext.swift.o",
+    "swiftmodule": "/Users/martinpucik/Developer/MPUtils/.build/x86_64-apple-macosx/debug/MPUtils.build/MPUtils/Extensions/UINavigationController+Ext~partial.swiftmodule",
+    "swift-dependencies": "/Users/martinpucik/Developer/MPUtils/.build/x86_64-apple-macosx/debug/MPUtils.build/MPUtils/Extensions/UINavigationController+Ext.swiftdeps"
+  },
+  "/Users/martinpucik/Developer/MPUtils/Sources/MPUtils/Extensions/UITableViewCell+Ext.swift": {
+    "dependencies": "/Users/martinpucik/Developer/MPUtils/.build/x86_64-apple-macosx/debug/MPUtils.build/MPUtils/Extensions/UITableViewCell+Ext.d",
+    "object": "/Users/martinpucik/Developer/MPUtils/.build/x86_64-apple-macosx/debug/MPUtils.build/MPUtils/Extensions/UITableViewCell+Ext.swift.o",
+    "swiftmodule": "/Users/martinpucik/Developer/MPUtils/.build/x86_64-apple-macosx/debug/MPUtils.build/MPUtils/Extensions/UITableViewCell+Ext~partial.swiftmodule",
+    "swift-dependencies": "/Users/martinpucik/Developer/MPUtils/.build/x86_64-apple-macosx/debug/MPUtils.build/MPUtils/Extensions/UITableViewCell+Ext.swiftdeps"
+  },
+  "/Users/martinpucik/Developer/MPUtils/Sources/MPUtils/Extensions/UIViewController+Ext.swift": {
+    "dependencies": "/Users/martinpucik/Developer/MPUtils/.build/x86_64-apple-macosx/debug/MPUtils.build/MPUtils/Extensions/UIViewController+Ext.d",
+    "object": "/Users/martinpucik/Developer/MPUtils/.build/x86_64-apple-macosx/debug/MPUtils.build/MPUtils/Extensions/UIViewController+Ext.swift.o",
+    "swiftmodule": "/Users/martinpucik/Developer/MPUtils/.build/x86_64-apple-macosx/debug/MPUtils.build/MPUtils/Extensions/UIViewController+Ext~partial.swiftmodule",
+    "swift-dependencies": "/Users/martinpucik/Developer/MPUtils/.build/x86_64-apple-macosx/debug/MPUtils.build/MPUtils/Extensions/UIViewController+Ext.swiftdeps"
+  },
+  "/Users/martinpucik/Developer/MPUtils/Sources/MPUtils/Utilities/Logger.swift": {
+    "dependencies": "/Users/martinpucik/Developer/MPUtils/.build/x86_64-apple-macosx/debug/MPUtils.build/MPUtils/Utilities/Logger.d",
+    "object": "/Users/martinpucik/Developer/MPUtils/.build/x86_64-apple-macosx/debug/MPUtils.build/MPUtils/Utilities/Logger.swift.o",
+    "swiftmodule": "/Users/martinpucik/Developer/MPUtils/.build/x86_64-apple-macosx/debug/MPUtils.build/MPUtils/Utilities/Logger~partial.swiftmodule",
+    "swift-dependencies": "/Users/martinpucik/Developer/MPUtils/.build/x86_64-apple-macosx/debug/MPUtils.build/MPUtils/Utilities/Logger.swiftdeps"
+  },
+  "/Users/martinpucik/Developer/MPUtils/Sources/MPUtils/Utilities/World.swift": {
+    "dependencies": "/Users/martinpucik/Developer/MPUtils/.build/x86_64-apple-macosx/debug/MPUtils.build/MPUtils/Utilities/World.d",
+    "object": "/Users/martinpucik/Developer/MPUtils/.build/x86_64-apple-macosx/debug/MPUtils.build/MPUtils/Utilities/World.swift.o",
+    "swiftmodule": "/Users/martinpucik/Developer/MPUtils/.build/x86_64-apple-macosx/debug/MPUtils.build/MPUtils/Utilities/World~partial.swiftmodule",
+    "swift-dependencies": "/Users/martinpucik/Developer/MPUtils/.build/x86_64-apple-macosx/debug/MPUtils.build/MPUtils/Utilities/World.swiftdeps"
+  },
+  "/Users/martinpucik/Developer/MPUtils/Sources/MPUtils/Views/MPUInputAccessoryKeyboardView.swift": {
+    "dependencies": "/Users/martinpucik/Developer/MPUtils/.build/x86_64-apple-macosx/debug/MPUtils.build/MPUtils/Views/MPUInputAccessoryKeyboardView.d",
+    "object": "/Users/martinpucik/Developer/MPUtils/.build/x86_64-apple-macosx/debug/MPUtils.build/MPUtils/Views/MPUInputAccessoryKeyboardView.swift.o",
+    "swiftmodule": "/Users/martinpucik/Developer/MPUtils/.build/x86_64-apple-macosx/debug/MPUtils.build/MPUtils/Views/MPUInputAccessoryKeyboardView~partial.swiftmodule",
+    "swift-dependencies": "/Users/martinpucik/Developer/MPUtils/.build/x86_64-apple-macosx/debug/MPUtils.build/MPUtils/Views/MPUInputAccessoryKeyboardView.swiftdeps"
+  },
+  "/Users/martinpucik/Developer/MPUtils/Sources/MPUtils/main.swift": {
+    "dependencies": "/Users/martinpucik/Developer/MPUtils/.build/x86_64-apple-macosx/debug/MPUtils.build/MPUtils/main.d",
+    "object": "/Users/martinpucik/Developer/MPUtils/.build/x86_64-apple-macosx/debug/MPUtils.build/MPUtils/main.swift.o",
+    "swiftmodule": "/Users/martinpucik/Developer/MPUtils/.build/x86_64-apple-macosx/debug/MPUtils.build/MPUtils/main~partial.swiftmodule",
+    "swift-dependencies": "/Users/martinpucik/Developer/MPUtils/.build/x86_64-apple-macosx/debug/MPUtils.build/MPUtils/main.swiftdeps"
+  }
+}

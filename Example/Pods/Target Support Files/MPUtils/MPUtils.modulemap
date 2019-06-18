@@ -1,6 +1,0 @@
-framework module MPUtils {
-  umbrella header "MPUtils-umbrella.h"
-
-  export *
-  module * { export * }
-}
