@@ -8,19 +8,19 @@
 import Foundation
 
 public extension NSAttributedString {
-    public func attributedStringByTrimmingCharacterSet(charSet: CharacterSet) -> NSAttributedString {
+    func attributedStringByTrimmingCharacterSet(charSet: CharacterSet) -> NSAttributedString {
         let modifiedString = NSMutableAttributedString(attributedString: self)
         modifiedString.trimCharactersInSet(charSet: charSet)
         return NSAttributedString(attributedString: modifiedString)
     }
 
-    public func trim() -> NSAttributedString {
+    func trim() -> NSAttributedString {
         return attributedStringByTrimmingCharacterSet(charSet: CharacterSet.whitespacesAndNewlines)
     }
 }
 
 public extension NSMutableAttributedString {
-    public func trimCharactersInSet(charSet: CharacterSet) {
+    func trimCharactersInSet(charSet: CharacterSet) {
         var range = (string as NSString).rangeOfCharacter(from: charSet)
 
         // Trim leading characters from character set.

@@ -8,8 +8,7 @@
 import UIKit
 
 public extension UITableViewCell {
-
-    public static var identifier: String {
+    static var identifier: String {
         return NSStringFromClass(type(of: self.init()))
     }
 }

@@ -9,7 +9,7 @@ import Foundation
 
 public extension Array where Element == String {
 
-    public func toString() -> String {
+    func toString() -> String {
         var string = ""
 
         for line in self {

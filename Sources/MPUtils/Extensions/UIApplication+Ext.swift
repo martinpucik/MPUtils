@@ -8,8 +8,7 @@
 import UIKit
 
 public extension UIApplication {
-
-    public static var animated: Bool {
+    static var animated: Bool {
         return !UIAccessibility.isReduceMotionEnabled
     }
 }

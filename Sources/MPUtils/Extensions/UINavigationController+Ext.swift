@@ -8,8 +8,7 @@
 import UIKit
 
 public extension UINavigationController {
-
-    public final func makeEmptyBack(withImage image: UIImage? = nil, tintColor: UIColor? = nil) {
+    final func makeEmptyBack(withImage image: UIImage? = nil, tintColor: UIColor? = nil) {
         let backImage = image ?? UIImage.init(named: "arrowBack")
         navigationBar.backIndicatorImage = backImage?.withRenderingMode(.alwaysTemplate)
         navigationBar.backIndicatorTransitionMaskImage = backImage?.withRenderingMode(.alwaysTemplate)

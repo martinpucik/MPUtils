@@ -8,7 +8,7 @@
 import UIKit
 
 public extension UIViewController {
-    public func canBePopped() -> Bool {
+    func canBePopped() -> Bool {
         guard let navController = navigationController else { return false }
         return navController.viewControllers.count > 1 && navController.viewControllers.last == self
     }

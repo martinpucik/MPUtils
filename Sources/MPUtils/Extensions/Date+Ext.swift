@@ -8,7 +8,7 @@
 import Foundation
 
 public extension Date {
-    public func remainingTimeString(toDate: Date) -> String? {
+    func remainingTimeString(toDate: Date) -> String? {
         let formatter = DateComponentsFormatter()
         formatter.zeroFormattingBehavior = .default
         formatter.allowedUnits = [.hour, .minute, .second]

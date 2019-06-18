@@ -8,12 +8,11 @@
 import Foundation
 
 public extension String {
-
-    public func trim() -> String {
+    func trim() -> String {
         return trimmingCharacters(in: NSCharacterSet.whitespacesAndNewlines)
     }
 
-    public func linesArray() -> [String] {
+    func linesArray() -> [String] {
         let newlineChars = NSCharacterSet.newlines
         let lines = components(separatedBy: newlineChars)
         return lines

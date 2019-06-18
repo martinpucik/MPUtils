@@ -5,7 +5,7 @@
 //  Created by Martin Púčik on 18/02/2018.
 //
 
-import Foundation
+import UIKit
 
 extension NSTextAttachment {
     func setImageHeight(height: CGFloat) {
