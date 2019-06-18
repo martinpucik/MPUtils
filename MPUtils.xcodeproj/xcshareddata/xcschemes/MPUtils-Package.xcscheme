@@ -15,7 +15,7 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "MPUtils::MPUtils"
-               BuildableName = "MPUtils"
+               BuildableName = "MPUtils.framework"
                BlueprintName = "MPUtils"
                ReferencedContainer = "container:MPUtils.xcodeproj">
             </BuildableReference>
@@ -50,16 +50,6 @@
       debugDocumentVersioning = "YES"
       debugServiceExtension = "internal"
       allowLocationSimulation = "YES">
-      <BuildableProductRunnable
-         runnableDebuggingMode = "0">
-         <BuildableReference
-            BuildableIdentifier = "primary"
-            BlueprintIdentifier = "MPUtils::MPUtils"
-            BuildableName = "MPUtils"
-            BlueprintName = "MPUtils"
-            ReferencedContainer = "container:MPUtils.xcodeproj">
-         </BuildableReference>
-      </BuildableProductRunnable>
    </LaunchAction>
    <ProfileAction
       buildConfiguration = "Release"

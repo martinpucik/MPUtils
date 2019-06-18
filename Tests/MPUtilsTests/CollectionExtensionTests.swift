@@ -1,14 +1,5 @@
-//
-//  CollectionExtensionTests.swift
-//  MPUtils_Tests
-//
-//  Created by Martin Pucik on 23/10/2018.
-//  Copyright © 2018 CocoaPods. All rights reserved.
-//
-
 import XCTest
-import Nimble
-import MPUtils
+@testable import MPUtils
 
 class CollectionExtensionTests: XCTestCase {
 
