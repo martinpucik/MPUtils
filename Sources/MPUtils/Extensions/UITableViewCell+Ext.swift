@@ -10,7 +10,7 @@ import UIKit
 
 public extension UITableViewCell {
     static var identifier: String {
-        return NSStringFromClass(type(of: self.init()))
+        return String(describing: self)
     }
 }
 
