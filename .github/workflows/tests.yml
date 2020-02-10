@@ -9,5 +9,7 @@ jobs:
 
     steps:
     - uses: actions/checkout@v2
+    - name: Xcode
+      run: xcode-select --install
     - name: Run tests
       run: swift test
