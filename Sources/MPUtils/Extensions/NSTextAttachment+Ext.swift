@@ -4,7 +4,7 @@
 //
 //  Created by Martin Púčik on 18/02/2018.
 //
-
+#if canImport(UIKit)
 import UIKit
 
 extension NSTextAttachment {
@@ -22,3 +22,4 @@ extension NSTextAttachment {
         bounds = CGRect.init(x: bounds.origin.x, y: bounds.origin.y, width: width, height: ratio * width)
     }
 }
+#endif

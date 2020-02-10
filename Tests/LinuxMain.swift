@@ -1,5 +1,4 @@
 import XCTest
-
 import MPUtilsTests
 
 var tests = [XCTestCaseEntry]()

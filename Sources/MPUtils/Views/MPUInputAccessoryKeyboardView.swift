@@ -4,29 +4,26 @@
 //
 //  Created by Martin Pucik on 23/08/2018.
 //
+#if canImport(UIKit)
 
 import UIKit
 
-////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
 // MARK: - CDCInputAccessoryKeyboardViewProtocol
-////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
 
 public protocol MPUInputAccessoryKeyboardViewProtocol: class {
     func keyboardFrameChanged(_ frame: CGRect)
 }
 
+// MARK: - MPUInputAccessoryKeyboardView
+
 public class MPUInputAccessoryKeyboardView: UIView {
 
-    ////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
     // MARK: - Private Properties
-    ////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
 
     private weak var delegate: MPUInputAccessoryKeyboardViewProtocol?
     private var centerObserver: NSKeyValueObservation?
 
-    ////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
     // MARK: - Lifecycle
-    ////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
 
     public init(delegate: MPUInputAccessoryKeyboardViewProtocol) {
         self.delegate = delegate
@@ -34,9 +31,7 @@ public class MPUInputAccessoryKeyboardView: UIView {
         autoresizingMask = .flexibleHeight
     }
 
-    required init?(coder aDecoder: NSCoder) {
-        return nil
-    }
+    required init?(coder aDecoder: NSCoder) { nil }
 
     deinit {
         centerObserver?.invalidate()
@@ -58,3 +53,5 @@ public class MPUInputAccessoryKeyboardView: UIView {
         }
     }
 }
+
+#endif
