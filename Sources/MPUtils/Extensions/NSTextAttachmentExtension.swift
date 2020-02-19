@@ -1,5 +1,5 @@
 //
-//  NSTextAttachment+Ext.swift
+//  NSTextAttachmentExtension.swift
 //  MPUtils
 //
 //  Created by Martin Púčik on 18/02/2018.

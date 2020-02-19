@@ -1,5 +1,5 @@
 //
-//  UINavigationController+Ext.swift
+//  UINavigationControllerExtension.swift
 //  MPUtils
 //
 //  Created by Martin Púčik on 15/02/2018.

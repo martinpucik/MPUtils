@@ -1,5 +1,5 @@
 //
-//  Collection+Ext.swift
+//  CollectionExtension.swift
 //  MPUtils
 //
 //  Created by Martin Pucik on 23/10/2018.

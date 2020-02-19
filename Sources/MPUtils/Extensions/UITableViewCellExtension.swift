@@ -1,5 +1,5 @@
 //
-//  UITableViewCell+Ext.swift
+//  UITableViewCellExtension.swift
 //  MPUtils
 //
 //  Created by Martin Púčik on 13/02/2018.

@@ -1,5 +1,5 @@
 //
-//  NSAttributedString+Ext.swift
+//  NSAttributedStringExtension.swift
 //  MPUtils
 //
 //  Created by Martin Púčik on 17/02/2018.
