@@ -1,3 +1,3 @@
 # MPUtils
 
-A description of this package.
+![Tests](https://github.com/martinpucik/MPUtils/workflows/Tests/badge.svg?branch=master)
