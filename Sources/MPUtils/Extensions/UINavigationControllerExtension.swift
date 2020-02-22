@@ -4,8 +4,8 @@
 //
 //  Created by Martin Púčik on 15/02/2018.
 //
-#if canImport(UIKit)
 
+#if canImport(UIKit)
 import UIKit
 
 public extension UINavigationController {

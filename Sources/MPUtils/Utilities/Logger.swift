@@ -6,6 +6,7 @@
 //  Copyright © 2017 MartinPucik. All rights reserved.
 //
 
+#if canImport(Foundation)
 import Foundation
 
 // MARK: - Log methods
@@ -27,3 +28,5 @@ public func ERROR(_ message: Any?, file: StaticString = #file, line: UInt = #lin
 private func lastFilePath(from string: StaticString) -> String {
     return ("\(string)" as NSString).lastPathComponent
 }
+
+#endif

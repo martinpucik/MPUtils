@@ -5,6 +5,7 @@
 //  Created by Martin Púčik on 19/02/2020.
 //
 
+#if canImport(Foundation)
 import Foundation
 
 public extension URL {
@@ -19,3 +20,5 @@ public extension URL {
         self.init(string: string)
     }
 }
+
+#endif

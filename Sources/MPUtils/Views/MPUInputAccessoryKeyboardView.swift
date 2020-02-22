@@ -4,8 +4,8 @@
 //
 //  Created by Martin Pucik on 23/08/2018.
 //
-#if canImport(UIKit)
 
+#if canImport(UIKit)
 import UIKit
 
 // MARK: - CDCInputAccessoryKeyboardViewProtocol

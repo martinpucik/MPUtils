@@ -5,6 +5,7 @@
 //  Created by Martin Púčik on 19/02/2020.
 //
 
+#if canImport(UIKit)
 import UIKit
 
 private final class ClosureSleeve {
@@ -30,3 +31,5 @@ public extension UIControl {
         objc_setAssociatedObject(self, "[\(arc4random())]", sleeve, .OBJC_ASSOCIATION_RETAIN)
     }
 }
+
+#endif

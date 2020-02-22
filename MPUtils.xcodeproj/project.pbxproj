@@ -26,6 +26,7 @@
 		13C199CF23FDC7DB009E2317 /* UIViewExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 13C199CE23FDC7DB009E2317 /* UIViewExtension.swift */; };
 		13C199D123FDC81E009E2317 /* UIControlExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 13C199D023FDC81E009E2317 /* UIControlExtension.swift */; };
 		13C199D323FDC863009E2317 /* URLExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 13C199D223FDC863009E2317 /* URLExtension.swift */; };
+		13C19A0C2401AB28009E2317 /* UIBarButtonItemExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 13C19A0B2401AB28009E2317 /* UIBarButtonItemExtension.swift */; };
 		OBJ_42 /* NSAttributedStringExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_12 /* NSAttributedStringExtension.swift */; };
 		OBJ_43 /* NSTextAttachmentExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_13 /* NSTextAttachmentExtension.swift */; };
 		OBJ_44 /* StringExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_14 /* StringExtension.swift */; };
@@ -67,6 +68,7 @@
 		13C199CE23FDC7DB009E2317 /* UIViewExtension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UIViewExtension.swift; sourceTree = "<group>"; };
 		13C199D023FDC81E009E2317 /* UIControlExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIControlExtension.swift; sourceTree = "<group>"; };
 		13C199D223FDC863009E2317 /* URLExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = URLExtension.swift; sourceTree = "<group>"; };
+		13C19A0B2401AB28009E2317 /* UIBarButtonItemExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIBarButtonItemExtension.swift; sourceTree = "<group>"; };
 		"MPUtils::MPUtils::Product" /* MPUtils.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = MPUtils.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		"MPUtils::MPUtilsTests::Product" /* MPUtilsTests.xctest */ = {isa = PBXFileReference; lastKnownFileType = file; path = MPUtilsTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		OBJ_12 /* NSAttributedStringExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NSAttributedStringExtension.swift; sourceTree = "<group>"; };
@@ -153,7 +155,7 @@
 			name = Products;
 			sourceTree = BUILT_PRODUCTS_DIR;
 		};
-		OBJ_5 /*  */ = {
+		OBJ_5 = {
 			isa = PBXGroup;
 			children = (
 				OBJ_6 /* Package.swift */,
@@ -163,7 +165,6 @@
 				OBJ_33 /* LICENSE */,
 				OBJ_34 /* README.md */,
 			);
-			name = "";
 			sourceTree = "<group>";
 		};
 		OBJ_7 /* Sources */ = {
@@ -194,6 +195,7 @@
 				OBJ_13 /* NSTextAttachmentExtension.swift */,
 				OBJ_14 /* StringExtension.swift */,
 				OBJ_15 /* UIApplicationExtension.swift */,
+				13C19A0B2401AB28009E2317 /* UIBarButtonItemExtension.swift */,
 				13C199D023FDC81E009E2317 /* UIControlExtension.swift */,
 				OBJ_16 /* UINavigationControllerExtension.swift */,
 				OBJ_17 /* UITableViewCellExtension.swift */,
@@ -270,7 +272,7 @@
 			knownRegions = (
 				en,
 			);
-			mainGroup = OBJ_5 /*  */;
+			mainGroup = OBJ_5;
 			productRefGroup = OBJ_30 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -292,6 +294,7 @@
 				13C199D123FDC81E009E2317 /* UIControlExtension.swift in Sources */,
 				13C199C923FDC70F009E2317 /* DateExtension.swift in Sources */,
 				OBJ_42 /* NSAttributedStringExtension.swift in Sources */,
+				13C19A0C2401AB28009E2317 /* UIBarButtonItemExtension.swift in Sources */,
 				OBJ_43 /* NSTextAttachmentExtension.swift in Sources */,
 				13C199D323FDC863009E2317 /* URLExtension.swift in Sources */,
 				OBJ_44 /* StringExtension.swift in Sources */,

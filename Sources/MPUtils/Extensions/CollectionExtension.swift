@@ -5,6 +5,7 @@
 //  Created by Martin Pucik on 23/10/2018.
 //
 
+#if canImport(Foundation)
 import Foundation
 
 public extension Collection {
@@ -17,3 +18,5 @@ public extension Collection {
         return !isEmpty
     }
 }
+
+#endif

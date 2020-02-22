@@ -5,6 +5,7 @@
 //  Created by Martin Púčik on 15/04/2018.
 //
 
+#if canImport(Foundation)
 import Foundation
 
 public extension Date {
@@ -16,3 +17,5 @@ public extension Date {
         return formatter.string(from: toDate.timeIntervalSince1970-self.timeIntervalSince1970)
     }
 }
+
+#endif

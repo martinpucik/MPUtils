@@ -4,8 +4,8 @@
 //
 //  Created by Martin Púčik on 10/02/2020.
 //
-#if canImport(UIKit)
 
+#if canImport(UIKit)
 import UIKit
 
 public extension UIView {

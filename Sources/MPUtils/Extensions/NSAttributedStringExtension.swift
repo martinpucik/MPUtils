@@ -5,6 +5,7 @@
 //  Created by Martin Púčik on 17/02/2018.
 //
 
+#if canImport(Foundation)
 import Foundation
 
 public extension NSAttributedString {
@@ -37,3 +38,5 @@ public extension NSMutableAttributedString {
         }
     }
 }
+
+#endif
