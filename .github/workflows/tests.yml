@@ -10,4 +10,4 @@ jobs:
     steps:
     - uses: actions/checkout@v2
     - name: Run tests
-      run: xcodebuild test -scheme "MPUtils-Package" | xcpretty
+      run: xcodebuild test -scheme "MPUtils-Package" -enableCodeCoverage "YES" -destination "platform=iOS Simulator,OS=13.3,name=iPhone 11" | xcpretty
