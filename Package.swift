@@ -6,14 +6,16 @@ import PackageDescription
 let package = Package(
     name: "MPUtils",
     platforms: [
-        .iOS(SupportedPlatform.IOSVersion.v13)
+        .iOS(.v13)
     ],
     products: [
         .library(name: "MPUtils", targets: ["MPUtils"]),
+        .library(name: "MPUtilsUIKit", targets: ["MPUtilsUIKit"])
     ],
     dependencies: [],
     targets: [
-        .target(name: "MPUtils", dependencies: []),
+        .target(name: "MPUtils", dependencies: ["MPUtilsUIKit"]),
+        .target(name: "MPUtilsUIKit"),
         .testTarget(name: "MPUtilsTests", dependencies: ["MPUtils"]),
     ],
     swiftLanguageVersions: [.v5]
