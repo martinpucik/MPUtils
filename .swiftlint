@@ -1,0 +1,38 @@
+disabled_rules:
+  - orphaned_doc_comment
+
+opt_in_rules:
+  - force_unwrapping
+  - implicitly_unwrapped_optional
+  - conditional_returns_on_newline
+  - empty_count
+  - empty_string
+  - extension_access_modifier
+  - closure_spacing
+  - fatal_error_message
+  - first_where
+  - toggle_bool
+  - unused_declaration
+  - modifier_order
+  - contains_over_first_not_nil
+  - convenience_type
+  - fallthrough
+  - unused_import
+  - unavailable_function
+  - strict_fileprivate
+  - explicit_init
+  - anyobject_protocol
+  - switch_case_on_newline
+  - contains_over_range_nil_comparison
+  - contains_over_filter_count
+  - contains_over_filter_is_empty
+  - empty_collection_literal
+  - flatmap_over_map_reduce
+  - no_space_in_method_call
+
+excluded:
+  - Tests
+
+colon:
+  flexible_right_spacing: false
+  apply_to_dictionaries: true
