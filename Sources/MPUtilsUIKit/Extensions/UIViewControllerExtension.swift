@@ -9,6 +9,7 @@
 import UIKit
 
 public extension UIViewController {
+    /// Flag indicating if caller UIViewController can be poped from the stack
     var canBePopped: Bool {
         guard let navController = navigationController else { return false }
         return
