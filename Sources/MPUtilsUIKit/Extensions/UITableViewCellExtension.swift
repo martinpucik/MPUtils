@@ -9,9 +9,8 @@
 import UIKit
 
 public extension UITableViewCell {
-    static var identifier: String {
-        return String(describing: self)
-    }
+    /// TableView cell reuse indentifier generated based on cell class name
+    static var identifier: String { String(describing: self) }
 }
 
 #endif
