@@ -1,7 +1,6 @@
 //
 //  UIBarButtonItemExtension.swift
 //  MPUtils
-//
 //  Created by Martin Púčik on 22/02/2020.
 //
 

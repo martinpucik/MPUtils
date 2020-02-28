@@ -1,7 +1,6 @@
 //
 //  UIControlExtension.swift
 //  MPUtils
-//
 //  Created by Martin Púčik on 19/02/2020.
 //
 

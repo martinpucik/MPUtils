@@ -1,7 +1,6 @@
 //
 //  UIViewControllerExtension.swift
 //  MPUtils
-//
 //  Created by Martin Púčik on 15/04/2018.
 //
 
