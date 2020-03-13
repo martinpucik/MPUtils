@@ -13,6 +13,7 @@ public extension UINavigationController {
     ///   - image: optional UIImage to be used as UINavigationBar.backIndicatorImage
     ///   - tintColor: optional tint color to use as backBarButtonItem.tintColor
     @available(iOS 7.0, *)
+    @available(tvOS, unavailable)
     func makeEmptyBack(withImage image: UIImage? = nil, tintColor: UIColor? = nil) {
         navigationBar.backIndicatorImage = image?.withRenderingMode(.alwaysTemplate)
         navigationBar.backIndicatorTransitionMaskImage = image?.withRenderingMode(.alwaysTemplate)
