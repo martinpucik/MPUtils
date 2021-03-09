@@ -1,6 +1,6 @@
 import XCTest
 import UIKit
-@testable import MPUtils
+@testable import MPUtilsUIKit
 
 final class UIViewExtensionTests: XCTestCase {
     func testAddSubviews() {
