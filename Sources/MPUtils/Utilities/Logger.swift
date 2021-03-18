@@ -29,9 +29,9 @@ private func lastFilePath(from string: StaticString) -> String {
     return ("\(string)" as NSString).lastPathComponent
 }
 
-private var formattedDate: String {
-    let formatter = ISO8601DateFormatter()
-    formatter.formatOptions = [.withFractionalSeconds]
+internal var formattedDate: String {
+    let formatter = DateFormatter()
+    formatter.dateFormat = "HH:mm:ss.SSSS"
     return formatter.string(from: Date())
 }
 
