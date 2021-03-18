@@ -31,7 +31,8 @@ private func lastFilePath(from string: StaticString) -> String {
 
 internal var formattedDate: String {
     let formatter = DateFormatter()
-    formatter.dateFormat = "HH:mm:ss.SSSS"
+    formatter.dateFormat = "yyyy-MM-dd'T'HH:mm:ss.SSS"
+    formatter.locale = Locale(identifier: "en_US_POSIX")
     return formatter.string(from: Date())
 }
 
