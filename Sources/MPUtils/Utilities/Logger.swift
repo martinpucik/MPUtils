@@ -30,7 +30,9 @@ private func lastFilePath(from string: StaticString) -> String {
 }
 
 private var formattedDate: String {
-    return ISO8601DateFormatter().string(from: Date())
+    let formatter = ISO8601DateFormatter()
+    formatter.formatOptions = [.withFractionalSeconds]
+    return formatter.string(from: Date())
 }
 
 #endif
