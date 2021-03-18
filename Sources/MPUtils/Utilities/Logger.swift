@@ -12,15 +12,15 @@ import Foundation
 // MARK: - Log methods
 
 public func INFO(_ message: Any?, file: StaticString = #file, line: UInt = #line, funcion: StaticString = #function) {
-    print("\(formattedDate) | 💙 [\(lastFilePath(from: file)):\(line) - \(funcion)] \(message ?? "")")
+    print("\(formattedDate) | 💙 \(message ?? "") | \(funcion) | \(lastFilePath(from: file)):\(line)")
 }
 
 public func WARN(_ message: Any?, file: StaticString = #file, line: UInt = #line, funcion: StaticString = #function) {
-    print("\(formattedDate) | 💛 [\(lastFilePath(from: file)):\(line) - \(funcion)] \(message ?? "")")
+    print("\(formattedDate) | 💛 \(message ?? "") | \(funcion) | \(lastFilePath(from: file)):\(line)")
 }
 
 public func ERROR(_ message: Any?, file: StaticString = #file, line: UInt = #line, funcion: StaticString = #function) {
-    print("\(formattedDate) | ❌ [\(lastFilePath(from: file)):\(line) - \(funcion)] \(message ?? "")")
+    print("\(formattedDate) | ❌ \(message ?? "") | \(funcion) | \(lastFilePath(from: file)):\(line)")
 }
 
 // MARK: - Private Methods
