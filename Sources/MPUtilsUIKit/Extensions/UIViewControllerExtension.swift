@@ -15,6 +15,26 @@ public extension UIViewController {
             navController.viewControllers.count > 1 &&
             navController.viewControllers.last == self
     }
+
+    func add(_ child: UIViewController) {
+        child.willMove(toParent: self)
+        addChild(child)
+        view.addSubview(child.view)
+        child.didMove(toParent: self)
+    }
+
+    func add(child: UIViewController, to view: UIView) {
+        child.willMove(toParent: self)
+        addChild(child)
+        view.addSubview(child.view)
+        child.didMove(toParent: self)
+    }
+
+    func remove(_ child: UIViewController) {
+        child.willMove(toParent: nil)
+        child.view.removeFromSuperview()
+        child.removeFromParent()
+    }
 }
 
 #endif
